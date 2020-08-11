@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 import './App.scss';
 import './assets/avatar.jpg';
+import ResumeTable from './components/ResumeTable';
 
 class App extends Component {
   render() {
@@ -20,60 +21,7 @@ class App extends Component {
             asdfa asdfasdf asdf
           </p>
           <h3>EDUCATION</h3>
-          <table>
-            <tr>
-              <td className="leftData">
-                <b>1990</b>
-              </td>
-              <td className="rightData">
-                <div>
-                  <p>
-                    <b>I was born in Katowice</b>
-                  </p>
-                  <p>d tqwqwg hwerer qewqwerq asdgasdg qwqdhfg qwrqwe</p>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td className="leftData">
-                <b>2005</b>
-              </td>
-              <td className="rightData">
-                <div>
-                  <p>
-                    <b>Secondary school specialising in artistic</b>
-                  </p>
-                  <p>d tqwqwg hwerer qewqwerq asdgasdg qwqdhfg qwrqwe</p>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td className="leftData">
-                <b>2009</b>
-              </td>
-              <td className="rightData">
-                <div>
-                  <p>
-                    <b>First level graduation in Graphic Design</b>
-                  </p>
-                  <p>d tqwqwg hwerer qewqwerq asdgasdg qwqdhfg qwrqwe</p>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td className="leftData">
-                <b>2012</b>
-              </td>
-              <td className="rightData">
-                <div>
-                  <p>
-                    <b>Second level graduation in Graphic Design</b>
-                  </p>
-                  <p>d tqwqwg hwerer qewqwerq asdgasdg qwqdhfg qwrqwe</p>
-                </div>
-              </td>
-            </tr>
-          </table>
+          <ResumeTable />
         </section>
       </main>
     );
